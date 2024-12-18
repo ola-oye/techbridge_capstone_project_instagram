@@ -8,11 +8,14 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "react-insta-stories": "^2.7.0",
 =======
     "react-infinite-scroll-component": "^6.1.0",
 >>>>>>> group2-post-page
     "react-router-dom": "^7.1.1",
+=======
+>>>>>>> 2875721 (my designs for suggested box block)
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
   },
