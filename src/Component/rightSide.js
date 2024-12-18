@@ -1,4 +1,4 @@
-// import React from "react";
+
 import React, { useState, useEffect } from "react";
  import './rightSide.css';
  import RightImage from '../assets/Profile-Pic.png' 
