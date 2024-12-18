@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./App.css";
 import Header from "./components/header";
 import { Route, Routes } from "react-router-dom";
@@ -16,5 +17,15 @@ function App() {
     </div>
   );
 }
+=======
+import React from 'react';  
+ function App() {
+  return (  
+    <div className="App">  
+     
+    </div>  
+  );  
+};  
+>>>>>>> 1e6873f (update)
 
 export default App;
