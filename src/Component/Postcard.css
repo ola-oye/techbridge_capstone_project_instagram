@@ -1,0 +1,104 @@
+.instagram-post {  
+    border: 1px solid #e6e6e6;  
+    border-radius: 10px;  
+    background-color: #ffffff;  
+    max-width: 600px;  
+    margin: 20px;  
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);  
+  }  
+  
+  .post-header {  
+    display: flex;  
+    align-items: center;  
+    padding: 10px;  
+  }  
+  
+  .user-info {  
+    display: flex;  
+    align-items: center;  
+  }  
+  
+  .profile-icon {  
+    background-color: #ddd;  
+    border-radius: 50%;  
+    padding: 10px;  
+    margin-right: 10px;  
+    font-weight: bold;  
+    text-align: center;  
+  }  
+  
+  .username {  
+    font-weight: bold;  
+  }  
+  
+  .post-image {  
+    width: 100%;  
+    border-radius: 10px;  
+  }  
+  
+  .post-details {  
+    padding: 10px;  
+  }  
+  
+  .likes {  
+    font-weight: bold;  
+  }  
+  
+  .hashtags {  
+    display: flex;  
+    flex-wrap: wrap;  
+    gap: 5px;  
+  }  
+  
+  .comments-section {  
+    margin-top: 5px;  
+  }  
+  
+  .view-comments {  
+    color: #007bff;  
+    cursor: pointer;  
+  }  
+  
+  .time-ago {  
+    color: #999;  
+  }  
+  
+  .publish-section {  
+    display: flex;  
+    padding: 10px;  
+  }  
+  
+  .comment-input {  
+    flex: 1;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+  }  
+  
+  .publish-button {  
+    margin-left: 10px;  
+    padding: 10px 15px;  
+    border: none;  
+    background-color: #0095f6;  
+    color: white;  
+    border-radius: 5px;  
+    cursor: pointer;  
+  }
+  .icon-bar.icon {  
+    display: flex;  
+    justify-content: left;
+    align-items: left;  
+    border: 1px solid black; 
+
+    padding: 10px;  
+  }  
+
+  
+  .icon {  
+    cursor: pointer; 
+  }  
+  
+  .icon-img {  
+    width: 50px; 
+    height: 50px; 
+  }
