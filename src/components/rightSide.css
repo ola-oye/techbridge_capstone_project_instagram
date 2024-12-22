@@ -1,81 +1,91 @@
-body{
-  background-color: rgba(250, 250, 250, 1);
-  
-  /* justify-content: flex-end;  */
+.suggestionBox{
+  width: 339px;
 }
 
-.rightSideHome{
+.userBlock, .userDetails{
   display: flex;
-  flex-direction: column;
-  padding-top: 90px;
-  width: 100%;
-  padding: 100px;
-  padding-left: 15px;
-  margin: 5px;
-}
-
-.topProfileRight{
-  display: flex;
-  width: 70%;
   justify-content: space-between;
   align-items: center;
- 
 }
-.imageDivRightSide{
-  width: 55px;
-  height: 45px;
-  border-radius: 100%;
 
-  
-}  
-
-.imageRightSideProfile{
-  width: 90%;
-  border-radius: 100%;
-
-}
-.userNameBlock{
-display: flex;
-flex-direction: column;
-
-}
-.userNameRightSide{
-  font-size: 14px;
+.userName {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 600;
-  padding: 3px;
-
+  font-size: 16px;
+  color: #161722;
+  margin-bottom: 10px;
 }
+
 .userfullName{
-  color: #999999;
-  font-size: 14px;
-  padding: 5px;
+  font-weight: 400;
+  font-size: 14;
+  color: #8E8E8E;
 }
+
 .switchBtn{
-  color: rgba(0, 149, 246, 1) ;
-  font-weight: 600;
+  color: #0095F6;
   font-size: 12px;
-
-
+  font-weight: 600;
 }
-.leftRightProfile{
-  display: flex;
-  gap: 20px;
 
-}
-.bottomRightSide{
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  margin-top: 30px;
-}
-.suggestedBlock{
+.suggestionTitle{
   display: flex;
   justify-content: space-between;
-  color: rgba(142, 142, 142, 1);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 14px;
-  font-weight:600 
+  font-weight: 600;
+  margin-top: 12px;
 }
+.suggestedForYou{
+  color: #8E8E8E;
+  font-size: 14px;
+}
+.seeAll{
+  color: #262626;
+  font-size: 12px;
+  
+}
+.followBlock{
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 20px;
+}
+
+.suggestedItem, .Profile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.suggestedItem{
+  width: 90%;
+  padding-block: 7px;
+}
+
+.Name, .fullName, .userfullName, .switchBtn, .suggestionTitle > p, .sugFooter > *{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Name {
+  font-weight: 500;
+  font-size: 14px;
+  color: #161722;
+  line-height: 11px;
+  margin-bottom: 7px;
+}
+
+.followedBy{
+  font-weight: 400;
+  font-size: 12px;
+  color: #8E8E8E;
+}
+
+.sugFooter > *{
+  color: #C7C7C7;
+  font-size: 11px;
+}
+.sugCopyRight{
+  margin-top: 20px;
+}
+/* 
+
 .seeAll{
   color:rgba(38, 38, 38, 1) ;
   margin-right: 52px;
@@ -88,12 +98,7 @@ flex-direction: column;
   font-weight: 400;
   margin-left: 10px;
 }
-.topProfileRightBottomProfile{
-  display: flex;
-  width: 78%;
-  justify-content: space-between;
-  align-items: center;
-}
+
 .footer{
   color: rgba(142, 142, 142, 1);
  justify-content: space-between;
@@ -109,7 +114,7 @@ font-size: 18px;
   display: flex;
   height: 13px;
   margin-top: 60px;
-}
+} */
 
 
 /* Light and Dark Mode Styles */
