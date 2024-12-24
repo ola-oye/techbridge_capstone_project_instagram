@@ -1,16 +1,17 @@
 import "./App.css";
-import RightSide from "./components/rightSide";
-import Postcard from "./components/Postcard";
-import Header from "./components/Header";
+import Header from "./components/header";
+import { Route, Routes } from "react-router-dom";
+import Post from "./pages/Post";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <div className="main-container">
-        <Postcard />
-        <RightSide />
-      </div>
+      <Routes>
+        <Route path="/" element={<Post />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
     </div>
   );
 }

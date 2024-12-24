@@ -1,0 +1,7 @@
+.main {
+  margin-inline: 21%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
