@@ -1,5 +1,6 @@
 .suggestionBox{
   width: 339px;
+  margin-left: 12px;
 }
 
 .userBlock, .userDetails{

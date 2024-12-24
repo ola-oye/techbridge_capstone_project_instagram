@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./rightSide.css";
+import "../styles/rightSide.css";
 import RightImage from "../assets/Profile-Pic.png";
 import profile from "../assets/Profile-Pic (1).png";
 import profile1 from "../assets/Profile-Pic (2).png";
