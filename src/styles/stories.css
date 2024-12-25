@@ -1,0 +1,42 @@
+:root {
+  --storyBoder-color: linear-gradient(
+    to right,
+    #fcc40c 0%,
+    #f52d96 24%,
+    #ea48f4 72%,
+    #8301fa 100%
+  );
+}
+
+.storyBox,
+.storyBox > div,
+.story, .story1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.storyBox {
+  background-color: #ffffff;
+  width: 490px;
+  gap: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.storyBox > div {
+  flex-direction: column;
+}
+.storyBox img {
+  width: 100%;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+.story {
+  box-sizing: content-box;
+  padding: 2px;
+  width: 60px;
+  height: 60px;
+  background: var(--storyBoder-color);
+  border-radius: 50%;
+}
