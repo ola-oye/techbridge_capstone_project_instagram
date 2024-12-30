@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap);
+*{
+    margin: 0;
+}
+.insta-story{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 490px;
+    height: 115px;
+    top: 91px;
+    left: 283.54px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    gap: 0px;
+    opacity: 5px;
+    padding: 5px;
+    margin: 10px 0px;
+    background-color: rgba(252, 255, 255, 1);
+    border: 1px solid rgba(219, 219, 219, 1);
+    border-radius: 8px;
+}
+.image{
+    width: 69.21px;
+height: 69.21px;
+top: 1.29px;
+left: 320.32px;
+gap: 0px;
+opacity: 0px;
+border: 2px solid white;
+border-radius: 50%; 
+object-fit: cover;
+display: block;
+}
+.gradient-border{
+    border-radius: 50%;
+    padding: 2px;
+    background: linear-gradient(114.97deg, #FCC40C 20.68%, #F52D96 41%, #EA48F4 80.35%, #8301FA 103.7%);;
+    border: 1px solid white;
+}
+.child-div{
+    text-align: center;
+    margin: 3px;
+}
+.ellipse{
+    width: 18.96px;
+height: 18.96px;
+top: 155.9px;
+left: 280.820px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}
+.plussign{
+    position: absolute;
+    width: 9.48px;
+    height: 8.84px;
+    top: 161px;
+    left: 285px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.you{
+    margin: 7px 5px 3px 5px;
+}
+.exclude{
+    width: 24.65px;
+height: 24.65px;
+top: -7px;
+left: -53px;
+position: relative;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+}
