@@ -1,66 +1,56 @@
-import "../styles/stories.css";
-import ProfilePic from "../assets/Profile-Pic.png";
-import maniscus from "../assets/maniscus.png";
-import katarina from "../assets/katarina.png";
-import leoni_tu from "../assets/leoni_tu.png";
-import brandon from "../assets/brandon.png";
-import mik from "../assets/mik.png";
-import addIcon from "../assets/add-story-icon.png";
-import scrollIcon from "../assets/story-scroll-icon.png";
-
-export default function Stories() {
-    
-  return (
-    <div className="storyBox">
-      <div>
-        <div className="story1">
-          <img className="storyImage1" src={ProfilePic} alt="profile" />
-        </div>
-        <p className="storyName">Your story</p>
-      </div>
-
-      <div>
-        <div className="story">
-          <img className="storyImage" src={leoni_tu} alt="profile" />
-        </div>
-        <p className="storyName">maniscus</p>
-      </div>
-
-      <div>
-        <div className="story">
-          <img className="storyImage" src={maniscus} alt="profile" />
-        </div>
-        <p className="storyName">leoni_tu</p>
-      </div>
-
-      <div>
-        <div className="story">
-          <img className="storyImage" src={katarina} alt="profile" />
-        </div>
-        <p className="storyName">katarina</p>
-      </div>
-
-      <div>
-        <div className="story">
-          <img className="storyImage" src={brandon} alt="profile" />
-        </div>
-        <p className="storyName">brandon</p>
-      </div>
-
-      <div>
-        <div className="story">
-          <img className="storyImage" src={mik} alt="profile" />
-        </div>
-        <p className="storyName">mik</p>
-      </div>
-
-      {/*<button className="addBtn">
-        <img className="storyImage" src={addIcon} alt="profile" />
-      </button>
-
-      <button className="moreBtn">
-        <img className="storyImage" src={scrollIcon} alt="profile" />
-      </button>*/}
+import "../styles/stories.css"
+const Stories = () => {
+  return ( 
+           <div className='insta-story'>
+              <div className="body">
+       <div>
+    <div className="you">
+      <a href="">
+        <img src="/images/you.png" alt=""className='' />
+        </a>
+    <div>
+    <img src="/images/Ellipse 3.png" alt="" className="ellipse"/> 
+    <img src="/images/Vector.png" alt="" className="plussign" />
     </div>
-  );
+    </div>
+    <p>Your story</p>
+    </div>
+    <div className="child-div">
+      <div className="gradient-border">
+        <img src="/images/user1.png" alt=""className='image' />
+        </div>
+        <p>manicus</p>
+    </div>
+    <div className="child-div">
+      <div className="gradient-border">
+        <img src="/images/user 2.png" alt=""className='image' />
+        </div>
+        <p>leoni_tu</p>
+    </div >
+    <div className="child-div">
+    <div className="gradient-border">
+        <img src="/images/user 4.png" alt=""className='image' />
+        </div>
+        <p>katarina</p>
+    </div>
+    <div className="child-div">
+    <div className="gradient-border">
+        <img src="/images/user 5.png" alt=""className='image' />
+        </div>
+        <p>brandon</p>
+    </div>
+    <div className="child-div">
+    <div className="gradient=border">
+      <div className="gradient-border">
+        <img src="/images/user 6.png" alt=""className='image' />
+        </div>
+        </div>
+        <p>milk</p>
+    </div>
+    </div>
+    <img src="/images/Exclude.png" alt=""  className="exclude"/>
+      </div>
+   );
 }
+
+export default Stories;
