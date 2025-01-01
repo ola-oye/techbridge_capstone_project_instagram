@@ -7,28 +7,41 @@ const useFetch = (url, params = {}, method = 'GET') => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    let isMounted = true; // Prevent state updates if the component unmounts
+
     const fetchData = async () => {
       try {
+        setLoading(true);
         const response = await axios.request({
           method,
           url,
           params,
           headers: {
-            'x-rapidapi-key': '96f915450dmsh13c4e4b72f9969ap12d760jsn0eb794c23647', // Use environment variable
+            'x-rapidapi-key': '8f543846fbmshc0723562c28ba8cp1520dcjsn5cef21549036', // Use environment variable for security
             'x-rapidapi-host': 'instagram-scraper-api2.p.rapidapi.com',
           },
         });
-        setData(response.data);
+        if (isMounted) {
+          setData(response.data.data);
+        }
       } catch (err) {
-        setError(err.response?.data?.message || 'Failed to fetch data.');
+        if (isMounted) {
+          setError(err.response?.data?.message || 'Failed to fetch data.');
+        }
         console.error('API Error:', err);
       } finally {
-        setLoading(false);
+        if (isMounted) {
+          setLoading(false);
+        }
       }
     };
 
     fetchData();
-  }, [url, params, method]);
+
+    return () => {
+      isMounted = false; // Cleanup to avoid setting state on unmounted components
+    };
+  }, [url, JSON.stringify(params), method]); // Use stable dependencies
 
   return { data, error, loading };
 };
