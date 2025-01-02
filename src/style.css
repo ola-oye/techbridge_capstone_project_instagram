@@ -1,0 +1,52 @@
+/* Default light mode colors */
+:root {
+    --backgrround-color: #ffffff;
+    --text-color: #000000;
+    --button-bg-color: #e0e0e0;
+    --button-text-color: #000000;
+}
+
+/* Dark mode colors */
+[dark-theme="dark"] {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --button-bg-color: #333;
+    --button-text-color: #fff;
+}
+
+/* Global styles */
+body{
+    margin: 0;
+    font-family:  Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.app-container {
+    padding: 20px;
+    text-align: center;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 32px;
+    margin: 0;
+}
+
+.dark-mode-toggle{
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode-toggle:hover{
+    opacity: 0.9;
+}
