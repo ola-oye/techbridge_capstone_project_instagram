@@ -1,0 +1,60 @@
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.follow-btn, .message-btn {
+  flex: 1;
+  padding: 7px 16px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.follow-btn:hover, .message-btn:hover {
+  opacity: 0.8;
+}
+
+.message-btn {
+  background-color: #efefef;
+  color: black;
+}
+
+.contact-btn {
+  padding: 7px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #efefef;
+  cursor: pointer;
+}
+
+.message-form {
+  padding: 16px;
+}
+
+.message-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  resize: none;
+}
+
+.send-message-btn {
+  width: 100%;
+  padding: 8px;
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.send-message-btn:hover {
+  opacity: 0.9;
+}

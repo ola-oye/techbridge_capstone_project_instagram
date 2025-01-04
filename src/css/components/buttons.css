@@ -1,0 +1,32 @@
+.action-buttons {
+    display: flex;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.follow-btn, .message-btn {
+    flex: 1;
+    padding: 7px 16px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.follow-btn {
+    background-color: #0095f6;
+    color: white;
+}
+
+.message-btn {
+    background-color: #efefef;
+    color: black;
+}
+
+.contact-btn {
+    padding: 7px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #efefef;
+    cursor: pointer;
+}
