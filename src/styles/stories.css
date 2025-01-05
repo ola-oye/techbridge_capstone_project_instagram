@@ -48,11 +48,14 @@ display: block;
     text-align: center;
     margin: 3px;
 }
+.you{
+    position: relative;
+}
 .ellipse{
     width: 18.96px;
 height: 18.96px;
-top: 155.9px;
-left: 280.820px;
+top: 41px;
+left: 43px;
 gap: 0px;
 opacity: 0px;
 position: absolute;
@@ -61,24 +64,32 @@ position: absolute;
     position: absolute;
     width: 9.48px;
     height: 8.84px;
-    top: 161px;
-    left: 285px;
+    top: 47px;
+    left: 47px;
     gap: 0px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-
 }
 .you{
     margin: 7px 5px 3px 5px;
 }
 .exclude{
     width: 24.65px;
-height: 24.65px;
-top: -7px;
-left: -53px;
-position: relative;
+    height: 24.65px;
+    top: -7px;
+    left: -53px;
+    position: relative;
 }
 .body{
     display: flex;
     flex-direction: row;
+}
+@media (max-width:390px) {
+    .insta-story{
+        width: 390px;
+        display: none;
+    }
+    .exclude{
+        display: none;
+    }
 }

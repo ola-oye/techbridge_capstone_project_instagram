@@ -5,7 +5,6 @@
 }
 .Header {
   background-color: #ffffff;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,5 +43,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 65%;
+  gap: 50px;
+}
+@media (max-width:400px) {
+  .search{
+    display: none;
+  }
+  .Header{
+    padding-inline: 17px;
+  }
 }

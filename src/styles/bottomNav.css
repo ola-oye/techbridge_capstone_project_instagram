@@ -1,0 +1,23 @@
+.bottomnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #e0e0e0;
+    background-color: #fff;
+    padding-block: 10px;
+}
+.bottomnav ul {
+  display: flex;
+  list-style: none;
+}
+.bottomnav li {
+  text-decoration: none;
+  margin-inline: 27px;
+
+}
+@media (min-width:401px) {
+    .bottomnav{
+        display: none;
+    }
+}
