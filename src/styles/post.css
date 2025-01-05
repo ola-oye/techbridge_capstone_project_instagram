@@ -5,3 +5,17 @@
   align-items: flex-start;
   margin-bottom: 8px;
 }
+
+@media (max-width:400px){
+  .rightside{
+    display: none;
+  }
+  .main{
+    width: 390px;
+    margin: 0px;
+  }
+  .hidden{
+    display: none;
+  }
+
+}

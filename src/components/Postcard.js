@@ -71,6 +71,7 @@ const Postcard = () => {
         <button className="publish-button">Publish</button>
       </div>
     </div>
+
   );
 };
 

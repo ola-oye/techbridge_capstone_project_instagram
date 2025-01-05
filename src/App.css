@@ -7,4 +7,9 @@
 body{
   background-color: #FAFAFA;
 }
-
+@media(max-width:390px){
+  .App{
+    display: flex;
+    flex-direction: column;
+  }
+}

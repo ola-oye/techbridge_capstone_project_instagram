@@ -9,7 +9,7 @@ import likeImage from "../assets/image/Menu-Button-Item.png";
 
 function Navbar() {
   return (
-    <nav className="navBar logoContainer">
+    <nav className="navBar">
       <ul>
         <li>
           <Link to="/">
@@ -36,6 +36,9 @@ function Navbar() {
               alt="profileImage"
             />
           </Link>
+        </li>
+        <li>
+          <img className="mobilemessageLogo" src={messageImage} alt="messageImage" />
         </li>
       </ul>
     </nav>
