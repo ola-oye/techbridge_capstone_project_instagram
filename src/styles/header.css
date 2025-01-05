@@ -5,7 +5,6 @@
 }
 .Header {
   background-color: #ffffff;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,5 +43,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 65%;
+  column-gap: 50px;
 }
