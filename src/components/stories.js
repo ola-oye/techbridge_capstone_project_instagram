@@ -1,12 +1,12 @@
 import "../styles/stories.css"
 const Stories = () => {
   return ( 
-           <div className='insta-story'>
+           <div className="insta-story">
               <div className="body">
        <div>
     <div className="you">
       <a href="">
-        <img src="/images/you.png" alt=""className='' />
+        <img src="/images/you.png" alt=""className='you' />
         </a>
     <div>
     <img src="/images/Ellipse 3.png" alt="" className="ellipse"/> 

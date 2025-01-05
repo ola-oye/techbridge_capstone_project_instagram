@@ -15,9 +15,10 @@ function Header() {
         <div className="search">
           <img className="searchIcon" src={searchIcon} alt="homeImage" />
           <input type="text" className="input" placeholder="Search" />
-        </div>
-
+        </div >
+        <div className="navbar">
         <Navbar />
+        </div>
       </div>
     </div>
   );

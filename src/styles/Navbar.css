@@ -11,3 +11,31 @@
     text-decoration: none;
     margin: 15px;
   }
+  .mobilemessageLogo{
+    display: none;
+  }
+  @media (max-width:400px) {
+    .homeLogo{
+      display: none;
+    }
+    .findLogo{
+      display: none;
+    }
+    .profileLogo{
+      display: none;
+    }
+    .messageLogo{
+      display: none;
+    }
+    .mobilemessageLogo{
+      display: inline-block;
+    }
+    .navBar{
+      justify-content: space-around;
+      align-items: center;
+    }
+    .navBar li{
+      margin: 5px;
+    }
+
+  } 

@@ -6,7 +6,7 @@
   border: 1px solid #d9d9d9;
   border-radius: 8px;
   background-color: #ffffff;
-  width: 490.3px;
+  max-width: 490.3px;
 }
 
 .post-header {
@@ -109,4 +109,14 @@
 .publish-button:active {
   background-color: #b3dbff;
   color: #ffffff;
+}
+
+@media (max-width:400px) {
+  .Postcard{
+    width: 390px;
+    border-radius: none;
+  }
+  .publish-section{
+    display: none;
+  }
 }
