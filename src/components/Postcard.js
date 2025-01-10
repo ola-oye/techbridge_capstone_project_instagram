@@ -4,7 +4,6 @@ import CommentIcon from "../assets/Comment-icon.png";
 import LikeIcon from "../assets/Like-Icon.png";
 import ShareIcon from "../assets/Share-icon.png";
 import SendIcon from "../assets/Save-icon.png";
-// import postImg from "../assets/post-img.png";
 import postMenuIcon from "../assets/post-menu-icon-desktop.png";
 import ProfileImg from "../assets/Profile-Pic-main.png";
 import ProfileImage from "../assets/davido.jpg"
