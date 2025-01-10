@@ -1,95 +1,144 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap);
 *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.story-carousel {
+  display: flex;
+  align-items: center;
+  padding: 5px 0 5px 5px;
+  background-color: rgba(252, 255, 255, 1);
+  border: 1px solid rgba(219, 219, 219, 1);
+  border-radius: 8px;
+  overflow: hidden;
+  max-width:490px;
+  position: relative;
+  margin-bottom: 17px;
+}
+
+.stories {
+  display: flex;
+  gap: 2px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+}
+
+.profile {
+  width: 69.21px;
+  height: 69.21px;
+  border-radius: 50%;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.profile > img {
+  width: 100%;
+  object-fit: cover;
+  border: 2px solid #DBDBDB;
+  border-radius: 50%;
+}
+
+img.has-story {
+  background: linear-gradient(
+    114.97deg,
+    #fcc40c 20.68%,
+    #f52d96 41%,
+    #ea48f4 80.35%,
+    #8301fa 103.7%
+  );
+  border: none;
+}
+
+.username {
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: center;
+  color: #333;
+  font-weight: normal;
+}
+.Positioning{
+  position: relative;
+}
+.Positioning  img{
+  border: none;
+}
+
+.ellipse {
+  width: 18.96px;
+  height: 18.96px;
+  top: 44px;
+  left: 50px;
+  position: absolute;
+  z-index: 2;
+}
+.plussign {
+  position: absolute;
+  width: 9.48px;
+  height: 8.84px;
+  top: 50px;
+  left: 54px;
+  z-index: 3;
+
+}
+.scroll-button {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  width: 24.65px;
+  height: 24.65px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.scroll-button.left {
+  left: 10px;
+}
+
+.scroll-button.right {
+  right: 10px;
+}
+
+.scroll-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffff;
+}
+@media (max-width:425px){
+  /* .scroll-button.right {
+    right: 90px;
+  } */
+
+  .story-carousel{
+    border: none;
+    border-radius: none;
     margin: 0;
+    max-width: 425px;
+  }
 }
-.insta-story{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 490px;
-    height: 115px;
-    top: 91px;
-    left: 283.54px;
-    font-family: 'Roboto';
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14.06px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    gap: 0px;
-    opacity: 5px;
-    padding: 5px;
-    margin: 10px 0px;
-    background-color: rgba(252, 255, 255, 1);
-    border: 1px solid rgba(219, 219, 219, 1);
-    border-radius: 8px;
-}
-.image{
-    width: 69.21px;
-height: 69.21px;
-top: 1.29px;
-left: 320.32px;
-gap: 0px;
-opacity: 0px;
-border: 2px solid white;
-border-radius: 50%; 
-object-fit: cover;
-display: block;
-}
-.gradient-border{
-    border-radius: 50%;
-    padding: 2px;
-    background: linear-gradient(114.97deg, #FCC40C 20.68%, #F52D96 41%, #EA48F4 80.35%, #8301FA 103.7%);;
-    border: 1px solid white;
-}
-.child-div{
-    text-align: center;
-    margin: 3px;
-}
-.you{
-    position: relative;
-}
-.ellipse{
-    width: 18.96px;
-height: 18.96px;
-top: 41px;
-left: 43px;
-gap: 0px;
-opacity: 0px;
-position: absolute;
-}
-.plussign{
-    position: absolute;
-    width: 9.48px;
-    height: 8.84px;
-    top: 47px;
-    left: 47px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-}
-.you{
-    margin: 7px 5px 3px 5px;
-}
-.exclude{
-    width: 24.65px;
-    height: 24.65px;
-    top: -7px;
-    left: -53px;
-    position: relative;
-}
-.body{
-    display: flex;
-    flex-direction: row;
-}
-@media (max-width:390px) {
-    .insta-story{
-        width: 390px;
-        display: none;
-    }
-    .exclude{
-        display: none;
-    }
+@media (max-width:375px){
+  /* .scroll-button.right {
+    right: 125px;
+  } */
+  .story-carousel{
+    max-width: 375px;
+  }
 }

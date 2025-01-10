@@ -1,22 +1,22 @@
 .bottomnav{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     border-top: 1px solid #e0e0e0;
     background-color: #fff;
-    padding-block: 10px;
+    padding-block: 15px;
+
 }
 .bottomnav ul {
   display: flex;
   list-style: none;
+  column-gap: 60px;
+
 }
 .bottomnav li {
   text-decoration: none;
-  margin-inline: 27px;
-
 }
-@media (min-width:401px) {
+@media (min-width:426px) {
     .bottomnav{
         display: none;
     }
