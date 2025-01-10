@@ -1,4 +1,5 @@
 import "../styles/stories.css"
+import DavidoStories from './DavidoStories';
 const Stories = () => {
   return ( 
            <div className='insta-story'>
@@ -7,6 +8,7 @@ const Stories = () => {
     <div className="you">
       <a href="">
         <img src="/images/you.png" alt=""className='' />
+        <DavidoStories />
         </a>
     <div>
     <img src="/images/Ellipse 3.png" alt="" className="ellipse"/> 
@@ -49,6 +51,8 @@ const Stories = () => {
     </div>
     </div>
     <img src="/images/Exclude.png" alt=""  className="exclude"/>
+   
+  
       </div>
    );
 }

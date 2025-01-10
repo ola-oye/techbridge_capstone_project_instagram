@@ -9,6 +9,9 @@ function Post() {
       <div className="wrapper">
         <Stories />
         <Postcard />
+        <Postcard />
+        <Postcard />
+        <Postcard />
       </div>
 
       <RightSide />
