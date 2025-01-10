@@ -13,11 +13,14 @@ function Header() {
 
       <div className="options">
         <div className="search">
-          <img className="searchIcon" src={searchIcon} alt="homeImage" />
+          <div>
+            <img className="searchIcon" src={searchIcon} alt="homeImage" />
+          </div>
           <input type="text" className="input" placeholder="Search" />
         </div>
-
-        <Navbar />
+        <div className="navbar">
+          <Navbar />
+        </div>
       </div>
     </div>
   );

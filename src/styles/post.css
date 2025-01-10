@@ -1,7 +1,23 @@
 .main {
   margin-inline: 21%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
+  gap: 30px;
   margin-bottom: 8px;
+}
+
+@media (max-width:425px){
+  .rightside{
+    display: none;
+  }
+  .main{
+    max-width: 425px;
+    margin: 0;
+    overflow: hidden;
+  }
+  .hidden{
+    display: none;
+  }
+
 }
