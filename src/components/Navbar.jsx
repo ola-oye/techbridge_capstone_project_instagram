@@ -13,17 +13,17 @@ function Navbar() {
       <ul>
         <li>
           <Link to="/">
-            <img className="homeLogo" src={homeImage} alt="homeImage" />
+            <img className="homeLogo hidden" src={homeImage} alt="homeImage" />
           </Link>
         </li>
         <li>
-          <img className="messageLogo" src={messageImage} alt="messageImage" />
+          <img className="messageLogo hidden" src={messageImage} alt="messageImage" />
         </li>
         <li>
           <img className="postLogo" src={postImage} alt="newpostImage" />
         </li>
         <li>
-          <img className="findLogo" src={findPeople} alt="findPeople" />
+          <img className="findLogo hidden" src={findPeople} alt="findPeople" />
         </li>
         <li>
           <img className="likeLogo" src={likeImage} alt="likeImage" />
@@ -31,7 +31,7 @@ function Navbar() {
         <li>
           <Link to="/profile">
             <img
-              className="profileLogo"
+              className="profileLogo hidden"
               src={profileImage}
               alt="profileImage"
             />

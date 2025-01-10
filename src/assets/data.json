@@ -1,0 +1,91 @@
+{
+  "userDetails": {
+    "username": "Your story",
+    "profilePicture": "./images/you.png",
+    "hasStory": false
+  },
+
+  "stories": [
+    {
+      "id": 2,
+      "username": "maniscus",
+      "profilePicture": "./images/user1.png",
+      "hasStory": true
+    },
+    {
+      "id": 3,
+      "username": "leoni_tu",
+      "profilePicture": "./images/user2.png",
+      "hasStory": false
+    },
+    {
+      "id": 4,
+      "username": "katarina",
+      "profilePicture": "./images/user3.png",
+      "hasStory": true
+    },
+    {
+      "id": 5,
+      "username": "brandon",
+      "profilePicture": "./images/user4.png",
+      "hasStory": false
+    },
+    {
+      "id": 6,
+      "username": "mik",
+      "profilePicture": "./images/user5.png",
+      "hasStory": true
+    },
+    {
+      "id": 6,
+      "username": "mik",
+      "profilePicture": "./images/user5.png",
+      "hasStory": true
+    },
+    {
+      "id": 6,
+      "username": "mik",
+      "profilePicture": "./images/user5.png",
+      "hasStory": true
+    },
+    {
+      "id": 6,
+      "username": "mik",
+      "profilePicture": "./images/user5.png",
+      "hasStory": true
+    },
+    {
+      "id": 6,
+      "username": "mik",
+      "profilePicture": "./images/user5.png",
+      "hasStory": true
+    },
+    {
+      "id": 6,
+      "username": "mik",
+      "profilePicture": "./images/user5.png",
+      "hasStory": true
+    }
+  ],
+
+  "postMedia": [
+    {
+      "id": 1,
+      "type": "image",
+      "src": "https://via.placeholder.com/500x500?text=Image+1",
+      "alt": "First Slide"
+    },
+    {
+      "id": 2,
+      "type": "video",
+      "src": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "alt": "Video Slide"
+    },
+    {
+      "id": 3,
+      "type": "image",
+      "src": "https://via.placeholder.com/500x500?text=Image+2",
+      "alt": "Second Slide"
+    }
+  ]
+}

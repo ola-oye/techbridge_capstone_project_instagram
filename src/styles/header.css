@@ -7,20 +7,23 @@
   background-color: #ffffff;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  column-gap: 30%;
   border-bottom: 1px solid #dbdbdb;
   border-top: 1px solid #dbdbdb;
-  padding-inline: 17%;
+  padding-inline: 15%;
   margin-bottom: 25px;
 }
 .search {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 278px;
+  max-width: 278px;
   border-radius: 6px;
   padding-inline: 15px;
   background-color: #efefef;
+  border: 1px solid black;
 }
 
 .input {
@@ -41,15 +44,18 @@
 
 .options {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 50px;
+  column-gap: 22%;
 }
-@media (max-width:400px) {
+@media (max-width:425px) {
   .search{
     display: none;
   }
   .Header{
-    padding-inline: 17px;
+    padding-inline: 0;
+    margin: 15px 0 0;
+    column-gap: 25%;
+    border: none;
   }
 }

@@ -1,0 +1,106 @@
+.media-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 468px;
+  height: 468px;
+}
+.media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.media-hidden{
+  display: none;
+}
+
+.arrow{
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  background-color: palegreen;
+  filter: drop-shadow(0 0 5px #555);
+  border: none;
+  outline: none;
+  z-index: 10;
+}
+.prev-button{
+  left: 1rem;
+}
+.next-button{
+  right: 1rem;
+}
+.indicators{
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+}
+.indicator{
+  background-color: palegreen;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-sizing: 0 0 5px #555;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+.indicator-inactive {
+  background-color: grey;
+}
+/* 
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 5px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #888;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #fff;
+} */
