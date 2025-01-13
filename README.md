@@ -99,36 +99,52 @@ This project was developed collaboratively by a team of contributors specializin
 **Oyetunji Fatai Olasunkanmi**  
 - GitHub: [ola-oye](https://github.com/ola-oye)  
 - LinkedIn: [Olasunkanmi Oyetunji](https://www.linkedin.com/in/olasunkanmi-oyetunji-4a38991b0/)
+- Reg No: 
+- Email: 
 
 ### Additional Contributors:
 
 **Andrew Onoriode Ayemo**  
 - GitHub: [andrewgold](https://github.com/yourusername)  
 - LinkedIn: [Andrew Ayemo](https://www.linkedin.com/in/andrew-gold-50948
+- Reg No: 028
+- Email: ayemoandrewgold@gmail.com
 
 **Eze-Oge Samuella**  
 - Github: [samuella-code](https://github.com/samuella-code) 
 - LinkedIn [Eze-Oge Samuella](https://www.linkedin.com/in/samuella-eze-oge/)
+- Reg No: 046
+- Email: ezeogesamuella@gmail.com 
 
 **Idowu shukurat opeyemi **  
-- GitHub: [shukroh 890](https://github.com/shukroh-890)  
+- GitHub: [shukroh890](https://github.com/shukroh-890)  
 - LinkedIn: [ shukroh Idowu ](https://www.linkedin.com/in/shukroh-idowu-22356731b)
+- Reg No: 051 
+- Email: shukuratidowu502@gmail.com 
 
 **Olawale Emmanuel Yakubu**  
 - GitHub: [Panucci-Juggernaut](https://github.com/Panucci-Juggernaut)  
 - LinkedIn: [yakubu-olawale]( http://linkedin.com/in/yakubu-olawale-a0bb19247)
+- Reg No: 111 
+- Email: Eyakubu442@gmail.com 
 
 **Olawale Kafayat Ayomide**  
 - GitHub: [slimzykaffy](https://github.com/slimzykaffy)  
 - LinkedIn: [Kafayat Olawale](https://www.linkedin.com/in/kafayat-olawale-8b005425)
+- Reg No: 089
+- Email: olawalekafayat06@gmail.com 
 
 **Ogunkanmi Oluwapelumi grace **  
-- GitHub: [Grace-niks]https://github.com/Grace-niks)  
-- LinkedIn: [Andrew Ayemo](https://www.linkedin.com/in/adenike-grace-33b97221)
+- GitHub: [Grace-niks](https://github.com/Grace-niks)  
+- LinkedIn: [Adenike-Grace](https://www.linkedin.com/in/adenike-grace-33b97221)
+- Reg No: 072
+- Email: Kanmigracie137@gmail.com 
 
 **Ogunsola Samson **  
 - GitHub: [Folarvic](https://github.com/Folarvic)  
-- LinkedIn: [ogunsola-samson](LinkedIn https://ng.linkedin.com/in/ogunsola-samson-aa75371b5)
+- LinkedIn: [gunsola-samson](LinkedIn https://ng.linkedin.com/in/ogunsola-samson-aa75371b5)
+- Reg No: 073 
+- Email: samfolarvic@gmail.com 
 
 
 ---

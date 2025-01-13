@@ -10,19 +10,17 @@ const userDetails = data.userDetails;
 
 function Post() {
   return (
-<<<<<<< HEAD
-    <main className="main">
-      <div className="wrapper">
-        <Stories />
-        <Postcard />
-        <Postcard />
-        <Postcard />
-        <Postcard />
-      </div>
-
-      <RightSide />
-    </main>
-=======
+    <div>
+      <main className="main">
+        <div className="wrapper">
+          <Stories />
+          <Postcard />
+          <Postcard />
+          <Postcard />
+          <Postcard />
+        </div>
+        <RightSide />
+      </main>
     <div>
       <main className="main">
         <div className="wrapper">
@@ -35,7 +33,7 @@ function Post() {
       </main>
       <Bottom />
     </div>
->>>>>>> group2-post-page
+    </div>
   );
 }
 export default Post;

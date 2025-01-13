@@ -6,7 +6,7 @@
   border: 1px solid #d9d9d9;
   border-radius: 8px;
   background-color: #ffffff;
-  max-width: 490px;
+  width: 490.3px;
 }
 
 .post-header {
@@ -31,6 +31,7 @@
 
 .post-image {
   width: 100%;
+
 }
 .post-content {
   padding: 8px;
@@ -41,17 +42,19 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px 0 0;
+  
 }
 
 .bargroup {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  column-gap: 20px;
 }
 
 .bargroup .icon {
-  cursor: pointer;
+  width: 100%;
+  padding-right: 16px;
+  cursor: pointer; 
 }
 
 .post-relation > * {
@@ -106,25 +109,4 @@
 .publish-button:active {
   background-color: #b3dbff;
   color: #ffffff;
-}
-
-@media (max-width: 425px) {
-  .Postcard {
-    max-width: 425px;
-    border: none;
-    border-top: 1px solid #d9d9d9;
-    border-radius: 0;
-  }
-  .post-header {
-    border: none;
-  }
-  .hidden {
-    display: none;
-  }
-  .post-content{
-    padding: 0;
-  }
-  .post-relation{
-    padding-inline: 15px;
-  }
 }

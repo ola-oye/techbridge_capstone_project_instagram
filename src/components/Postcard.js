@@ -1,5 +1,5 @@
 import React from "react";
-import "./Postcard.css";
+import "../styles/Postcard.css";
 import CommentIcon from "../assets/Comment-icon.png";
 import LikeIcon from "../assets/Like-Icon.png";
 import ShareIcon from "../assets/Share-icon.png";

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import "./rightSide.css";
+import React, { useState, } from "react";
+import "../styles/rightSide.css";
 import RightImage from "../assets/Profile-Pic.png";
 import profile from "../assets/Profile-Pic (1).png";
 import profile1 from "../assets/Profile-Pic (2).png";
@@ -8,20 +8,8 @@ import profile3 from "../assets/Profile-Pic (4).png";
 import profile4 from "../assets/Profile-Pic (5).png";
 
 const RightSide = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, ] = useState("light");
 
-  // // Apply system's color scheme preference on load
-  // useEffect(() => {
-  //   const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  //   setTheme(isDarkMode ? "dark" : "light");
-
-  //   // Listen for system theme changes
-  //   const themeListener = (e) => setTheme(e.matches ? "dark" : "light");
-  //   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", themeListener);
-
-  //   return () =>
-  //     window.matchMedia("(prefers-color-scheme: dark)").removeEventListener("change", themeListener);
-  // }, []);
 
   return (
     <div className={`suggestionBox ${theme === "dark" ? "dark-mode" : ""}`}>
