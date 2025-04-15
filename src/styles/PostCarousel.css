@@ -12,11 +12,11 @@
   object-fit: cover;
   border-radius: 10px;
 }
-.media-hidden{
+.media-hidden {
   display: none;
 }
 
-.arrow{
+.arrow {
   position: absolute;
   width: 2rem;
   height: 2rem;
@@ -28,18 +28,18 @@
   outline: none;
   z-index: 10;
 }
-.prev-button{
+.prev-button {
   left: 1rem;
 }
-.next-button{
+.next-button {
   right: 1rem;
 }
-.indicators{
+.indicators {
   display: flex;
   position: absolute;
   bottom: 1rem;
 }
-.indicator{
+.indicator {
   background-color: palegreen;
   height: 0.5rem;
   width: 0.5rem;

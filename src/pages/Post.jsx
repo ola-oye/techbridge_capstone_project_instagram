@@ -13,17 +13,6 @@ function Post() {
     <div>
       <main className="main">
         <div className="wrapper">
-          <Stories />
-          <Postcard />
-          <Postcard />
-          <Postcard />
-          <Postcard />
-        </div>
-        <RightSide />
-      </main>
-    <div>
-      <main className="main">
-        <div className="wrapper">
           <Stories stories={stories} user={userDetails} />
           <Postcard />
         </div>
@@ -32,7 +21,6 @@ function Post() {
         </div>
       </main>
       <Bottom />
-    </div>
     </div>
   );
 }

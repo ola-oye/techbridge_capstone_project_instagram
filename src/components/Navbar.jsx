@@ -1,4 +1,4 @@
-import "../styles/Navbar.css"
+import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
 import homeImage from "../assets/image/Home.png";
 import messageImage from "../assets/image/Messenger.png";
@@ -17,7 +17,11 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <img className="messageLogo hidden" src={messageImage} alt="messageImage" />
+          <img
+            className="messageLogo hidden"
+            src={messageImage}
+            alt="messageImage"
+          />
         </li>
         <li>
           <img className="postLogo" src={postImage} alt="newpostImage" />
@@ -38,7 +42,11 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <img className="mobilemessageLogo" src={messageImage} alt="messageImage" />
+          <img
+            className="mobilemessageLogo"
+            src={messageImage}
+            alt="messageImage"
+          />
         </li>
       </ul>
     </nav>

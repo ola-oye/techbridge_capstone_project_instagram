@@ -1,13 +1,28 @@
 .navBar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.navBar ul {
+  display: flex;
+  list-style: none;
+  column-gap: 12%;
+}
+.navBar li {
+  text-decoration: none;
+}
+.mobilemessageLogo {
+  display: none;
+}
+@media (max-width: 425px) {
+  .hidden {
+    display: none;
   }
-  .navBar ul {
-    display: flex;
-    list-style: none;
+  .mobilemessageLogo {
+    display: inline-block;
   }
-  .navBar li {
-    text-decoration: none;
-    margin: 15px;
+  .navBar {
+    padding: 10px;
   }
+}

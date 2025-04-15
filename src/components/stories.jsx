@@ -48,7 +48,7 @@ const Stories = ({ stories, user }) => {
       {/* Left Button */}
       {showLeftButton && (
         <button className="scroll-button left" onClick={scrollLeft}>
-          {'\u25C0'}
+          {"\u25C0"}
         </button>
       )}
       {/* Stories Container */}
@@ -85,7 +85,7 @@ const Stories = ({ stories, user }) => {
       {/* Right Button */}
       {showRightButton && (
         <button className="scroll-button right" onClick={scrollRight}>
-          {'\u25B6'}
+          {"\u25B6"}
         </button>
       )}
     </div>

@@ -1,4 +1,4 @@
-import "../styles/bottomNav.css"
+import "../styles/bottomNav.css";
 import { Link } from "react-router-dom";
 import homeImage from "../assets/image/Home.png";
 import likeImage from "../assets/image/Menu-Button-Item.png";

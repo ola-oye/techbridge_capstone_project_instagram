@@ -51,13 +51,13 @@ The goal of this project was to learn and apply frontend development skills by c
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/instagram-clone.git
+   git clone https://github.com/ola-oye/techbridge_capstone_project_instagram.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd instagram-clone
+   cd techbridge_capstone_project_instagram
    ```
 
 3. Install dependencies:
@@ -84,10 +84,10 @@ The goal of this project was to learn and apply frontend development skills by c
 ## Screenshots
 
 ### Post Feed Page
-![Post Feed Placeholder](./src/assets/project-post.png) <!-- Replace with an actual screenshot -->
+![Post Feed Placeholder](./src/assets/project-post.png) 
 
 ### User Story Page
-![User Profile Placeholder](./src/assets/project-story.png) <!-- Replace with an actual screenshot -->
+![User Profile Placeholder](./src/assets/project-story.png) 
 
 ---
 
@@ -95,18 +95,20 @@ The goal of this project was to learn and apply frontend development skills by c
 
 This project was developed collaboratively by a team of contributors specializing in various aspects of frontend development.
 
+### Group 2 Members (Worked on post page)
+
 ### Lead Developer:
 **Oyetunji Fatai Olasunkanmi**  
 - GitHub: [ola-oye](https://github.com/ola-oye)  
 - LinkedIn: [Olasunkanmi Oyetunji](https://www.linkedin.com/in/olasunkanmi-oyetunji-4a38991b0/)
-- Reg No: 
-- Email: 
+- Reg No: 095
+- Email: olasunkanmioyetunji4@gmail.com
 
 ### Additional Contributors:
 
 **Andrew Onoriode Ayemo**  
 - GitHub: [andrewgold](https://github.com/yourusername)  
-- LinkedIn: [Andrew Ayemo](https://www.linkedin.com/in/andrew-gold-50948
+- LinkedIn: [Andrew Ayemo](https://www.linkedin.com/in/andrew-gold-50948/)
 - Reg No: 028
 - Email: ayemoandrewgold@gmail.com
 
@@ -134,17 +136,62 @@ This project was developed collaboratively by a team of contributors specializin
 - Reg No: 089
 - Email: olawalekafayat06@gmail.com 
 
-**Ogunkanmi Oluwapelumi grace **  
+**Ogunkanmi Oluwapelumi grace**  
 - GitHub: [Grace-niks](https://github.com/Grace-niks)  
 - LinkedIn: [Adenike-Grace](https://www.linkedin.com/in/adenike-grace-33b97221)
 - Reg No: 072
 - Email: Kanmigracie137@gmail.com 
 
-**Ogunsola Samson **  
+**Ogunsola Samson**  
 - GitHub: [Folarvic](https://github.com/Folarvic)  
-- LinkedIn: [gunsola-samson](LinkedIn https://ng.linkedin.com/in/ogunsola-samson-aa75371b5)
+- LinkedIn: [gunsola-samson](https://www.linkedin.com/in/ogunsola-samson-aa75371b5) 
 - Reg No: 073 
 - Email: samfolarvic@gmail.com 
 
 
 ---
+
+### Group 1 Members (Worked on profile page)
+
+### Lead Developer:
+**Samson Akinsanya**  
+- GitHub: [Iamsomatil](https://github.com/Iamsomatil)  
+- Reg No: 014
+- Email: somatil024@gmail.com
+
+### Additional Contributors:
+
+**Abass Nihmotallahi**  
+- GitHub: [Donglee21](https://github.com/Donglee21)  
+- Reg No: 001
+- Email: nihmotallahiabass@gmail.com
+
+**Oghenekefe Okpare**  
+- GitHub: [Kefe05](https://github.com/Kefe05)  
+- Reg No: 080
+- Email: Oghenekefe.okpare@miva.edu.ng
+
+**Kehinde Olaniyi**  
+- GitHub: [K-Gabby](https://github.com/K-Gabby)  
+- Reg No: 086
+- Email: kehindegabrielolaniyi22@gmail.com
+
+**Victor Okpare**  
+- GitHub: [VictorOkpare](https://github.com/VictorOkpare)  
+- Reg No: 079
+- Email: Victorokpare@gmail.com 
+
+**Etim Christian Enebong**  
+- GitHub: [7Blue-AI](https://github.com/7Blue-AI)  
+- Reg No: 045
+- Email: bluewhyte8@gmail.com
+
+**Chibuike David**  
+- GitHub: [Digitaldcee](https://github.com/Digitaldcee)  
+- Reg No: 113
+- Email: davidcchibuike@gmail.com
+
+**Abdulrazaq Obe**  
+- GitHub: [Razaq24](https://github.com/Razaq24)  
+- Reg No: 069
+- Email: mrbeccoh1445@gmail.com

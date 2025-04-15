@@ -121,137 +121,143 @@ const Postcard = () => {
       hasMore={hasMore}
       loader={<p>Loading more posts...</p>}
     >
-      {postData.length > 0 ?
-      <div>
-        {isLoading && <p>Loading...</p>}
+      {postData.length > 0 ? (
+        <div>
+          {isLoading && <p>Loading...</p>}
 
-        {postData.map((post, index) => (
-          <div key={post.id || index} className="Postcard">
-            <div className="post-header">
-              <div className="user-info">
-                <div className="profile-icon">
-                  <img
-                    src={ProfileImg}
-                    alt="Profile pic"
-                    className="profileImg"
-                  />
+          {postData.map((post, index) => (
+            <div key={post.id || index} className="Postcard">
+              <div className="post-header">
+                <div className="user-info">
+                  <div className="profile-icon">
+                    <img
+                      src={ProfileImg}
+                      alt="Profile pic"
+                      className="profileImg"
+                    />
+                  </div>
+
+                  <p className="username">mediamodifier</p>
                 </div>
-
-                <p className="username">mediamodifier</p>
+                <div>
+                  <img src={postMenuIcon} alt="Menu" className="postMenuIcon" />
+                </div>
               </div>
-              <div>
-                <img src={postMenuIcon} alt="Menu" className="postMenuIcon" />
+
+              <div className="post-content">
+                <PostCarousel media={post.carousel_media || []} />
+
+                <div className="post-relation">
+                  <div className="post-icon-bar">
+                    <div className="bargroup">
+                      <div className="icon">
+                        <img src={LikeIcon} alt="Like Icon" />
+                      </div>
+                      <div className="icon">
+                        <img src={CommentIcon} alt="Comment Icon" />
+                      </div>
+                      <div className="icon">
+                        <img src={ShareIcon} alt="Share Icon" />
+                      </div>
+                    </div>
+                    <div className="icon">
+                      <img src={SendIcon} alt="Send Icon" />
+                    </div>
+                  </div>
+
+                  <p className="likes">
+                    Liked by <strong>you</strong> and{" "}
+                    <strong>{post?.like_count || 0} others</strong>
+                  </p>
+                  <p className="caption">{post?.caption?.text || ""}</p>
+
+                  <p className="view-comments light-color">
+                    View all {post?.comment_count || 0} comments
+                  </p>
+                  {/* <p className="post-time light-color">HOUR AGO</p> */}
+                </div>
+              </div>
+
+              <div className="publish-section hidden">
+                <div>
+                  <img src={emoji} alt="Emojis" className="emojiIcon" />
+                </div>
+                <input
+                  type="text"
+                  placeholder="Add a comment..."
+                  className="comment-input"
+                />
+                <button className="publish-button">Publish</button>
               </div>
             </div>
+          ))}
+        </div>
+      ) : (
+        <div className="Postcard">
+          <div className="post-header">
+            <div className="user-info">
+              <div className="profile-icon">
+                <img
+                  src={ProfileImg}
+                  alt="Profile pic"
+                  className="profileImg"
+                />
+              </div>
 
-            <div className="post-content">
-              <PostCarousel media={post.carousel_media || []} />
+              <p className="username">mediamodifier</p>
+            </div>
+            <div>
+              <img src={postMenuIcon} alt="Menu" className="postMenuIcon" />
+            </div>
+          </div>
+          <div className="post-content">
+            <PostCarousel media={media} />
+            {/* <img src={postImg} alt="Post content" className="post-image" /> */}
 
-              <div className="post-relation">
-                <div className="post-icon-bar">
-                  <div className="bargroup">
-                    <div className="icon">
-                      <img src={LikeIcon} alt="Like Icon" />
-                    </div>
-                    <div className="icon">
-                      <img src={CommentIcon} alt="Comment Icon" />
-                    </div>
-                    <div className="icon">
-                      <img src={ShareIcon} alt="Share Icon" />
-                    </div>
+            <div className="post-relation">
+              <div className="post-icon-bar">
+                <div className="bargroup">
+                  <div className="icon">
+                    <img src={LikeIcon} alt="Like Icon" />
                   </div>
                   <div className="icon">
-                    <img src={SendIcon} alt="Send Icon" />
+                    <img src={CommentIcon} alt="Comment Icon" />
+                  </div>
+                  <div className="icon">
+                    <img src={ShareIcon} alt="Share Icon" />
                   </div>
                 </div>
-
-                <p className="likes">
-                  Liked by <strong>you</strong> and{" "}
-                  <strong>{post?.like_count || 0} others</strong>
-                </p>
-                <p className="caption">{post?.caption?.text || ""}</p>
-
-                <p className="view-comments light-color">
-                  View all {post?.comment_count || 0} comments
-                </p>
-                {/* <p className="post-time light-color">HOUR AGO</p> */}
-              </div>
-            </div>
-
-            <div className="publish-section hidden">
-              <div>
-                <img src={emoji} alt="Emojis" className="emojiIcon" />
-              </div>
-              <input
-                type="text"
-                placeholder="Add a comment..."
-                className="comment-input"
-              />
-              <button className="publish-button">Publish</button>
-            </div>
-          </div>
-        ))}
-      </div>
-      :
-      <div className="Postcard">
-        <div className="post-header">
-          <div className="user-info">
-            <div className="profile-icon">
-              <img src={ProfileImg} alt="Profile pic" className="profileImg" />
-            </div>
-
-            <p className="username">mediamodifier</p>
-          </div>
-          <div>
-            <img src={postMenuIcon} alt="Menu" className="postMenuIcon" />
-          </div>
-        </div>
-        <div className="post-content">
-          <PostCarousel media={media} />
-          {/* <img src={postImg} alt="Post content" className="post-image" /> */}
-
-          <div className="post-relation">
-            <div className="post-icon-bar">
-              <div className="bargroup">
                 <div className="icon">
-                  <img src={LikeIcon} alt="Like Icon" />
-                </div>
-                <div className="icon">
-                  <img src={CommentIcon} alt="Comment Icon" />
-                </div>
-                <div className="icon">
-                  <img src={ShareIcon} alt="Share Icon" />
+                  <img src={SendIcon} alt="Send Icon" />
                 </div>
               </div>
-              <div className="icon">
-                <img src={SendIcon} alt="Send Icon" />
-              </div>
+
+              <p className="likes">
+                Liked by <strong>you</strong> and{" "}
+                <strong>905,235 others</strong>
+              </p>
+              <p className="caption">
+                #mediamodifier #mockup #design #blackfriday #blackfridaysale
+                #sale #cybermonday<span className="light-color">...more</span>
+              </p>
+
+              <p className="view-comments light-color">View all 103 comments</p>
+              <p className="post-time light-color">HOUR AGO</p>
             </div>
-
-            <p className="likes">
-              Liked by <strong>you</strong> and <strong>905,235 others</strong>
-            </p>
-            <p className="caption">
-              #mediamodifier #mockup #design #blackfriday #blackfridaysale #sale
-              #cybermonday<span className="light-color">...more</span>
-            </p>
-
-            <p className="view-comments light-color">View all 103 comments</p>
-            <p className="post-time light-color">HOUR AGO</p>
+          </div>
+          <div className="publish-section hidden">
+            <div>
+              <img src={emoji} alt="Emojis" className="emojiIcon" />
+            </div>
+            <input
+              type="text"
+              placeholder="Add a comment..."
+              className="comment-input"
+            />
+            <button className="publish-button">Publish</button>
           </div>
         </div>
-        <div className="publish-section hidden">
-          <div>
-            <img src={emoji} alt="Emojis" className="emojiIcon" />
-          </div>
-          <input
-            type="text"
-            placeholder="Add a comment..."
-            className="comment-input"
-          />
-          <button className="publish-button">Publish</button>
-        </div>
-      </div>}
+      )}
     </InfiniteScroll>
   );
 };
