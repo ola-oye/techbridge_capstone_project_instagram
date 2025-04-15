@@ -4,7 +4,6 @@ import { Route, Routes } from "react-router-dom";
 import Post from "./pages/Post";
 import Profile from "./pages/Profile";
 
-
 function App() {
   return (
     <div className="App">

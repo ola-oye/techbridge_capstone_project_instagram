@@ -7,17 +7,16 @@
   margin-bottom: 8px;
 }
 
-@media (max-width:425px){
-  .rightside{
+@media (max-width: 425px) {
+  .rightside {
     display: none;
   }
-  .main{
+  .main {
     max-width: 425px;
     margin: 0;
     overflow: hidden;
   }
-  .hidden{
+  .hidden {
     display: none;
   }
-
 }

@@ -121,10 +121,10 @@
   .hidden {
     display: none;
   }
-  .post-content{
+  .post-content {
     padding: 0;
   }
-  .post-relation{
+  .post-relation {
     padding-inline: 15px;
   }
 }

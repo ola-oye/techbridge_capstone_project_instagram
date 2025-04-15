@@ -48,11 +48,11 @@
   align-items: center;
   column-gap: 22%;
 }
-@media (max-width:425px) {
-  .search{
+@media (max-width: 425px) {
+  .search {
     display: none;
   }
-  .Header{
+  .Header {
     padding-inline: 0;
     margin: 15px 0 0;
     column-gap: 25%;
