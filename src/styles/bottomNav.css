@@ -1,0 +1,21 @@
+.bottomnav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #e0e0e0;
+  background-color: #fff;
+  padding-block: 15px;
+}
+.bottomnav ul {
+  display: flex;
+  list-style: none;
+  column-gap: 60px;
+}
+.bottomnav li {
+  text-decoration: none;
+}
+@media (min-width: 426px) {
+  .bottomnav {
+    display: none;
+  }
+}

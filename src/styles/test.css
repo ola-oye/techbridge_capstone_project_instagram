@@ -1,0 +1,74 @@
+.logoContainer {
+    width: 319px;
+    height: 38px;
+    padding: 7px;
+    /* margin-top: 10px; */
+}
+.homeLogo {
+    padding: 5px 7px;
+
+}
+.messageLogo {
+    padding: 5px 8px;
+    
+}
+.postLogo {
+    padding: 5px 8px;
+   
+}
+.findLogo {
+    padding: 5px 8px;
+   
+}
+.profileLogo {
+   margin: 10px;
+    
+}
+.likeLogo {
+    padding: 5px 8px;
+}
+
+@media (max-width: 390px) {
+    .input {
+        display: none;
+    }
+    .homeLogo {
+        display: none;
+    }
+    /* .likeLogo {
+       margin-left: 150px;
+       margin-top: 0px;
+       padding-top: 0px;
+    } */
+    .profileLogo {
+        display: none;
+    }
+    .findLogo {
+        display: none;
+    }
+    .topProfile {
+        /* display: flex; */
+        width: 30%;
+        height: 38.41px;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    .imageDiv {
+        /* width: 360px; */
+        height: 36px;
+        margin-top: 10px;
+       
+    }
+    .imageProfile {
+        justify-content: start;
+        align-items: start;
+    }
+    .logoContainer {
+        /* justify-content: end;
+        text-align: end;
+        align-items: end; */
+        margin-left: 100px;
+    }
+    
+}
