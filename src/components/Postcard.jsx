@@ -121,10 +121,11 @@ const Postcard = () => {
       hasMore={hasMore}
       loader={<p>Loading more posts...</p>}
     >
+      {console.log("Post data:", postData)}
       {postData.length > 0 ? (
         <div>
           {isLoading && <p>Loading...</p>}
-
+        
           {postData.map((post, index) => (
             <div key={post.id || index} className="Postcard">
               <div className="post-header">

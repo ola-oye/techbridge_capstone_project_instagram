@@ -2,8 +2,9 @@ import React, { useEffect, useRef, useState } from "react";
 import "../styles/PostCarousel.css";
 
 const PostCarousel = ({ media }) => {
+  // console.log("PostCarousel media:", media);
   const [slide, setSlide] = useState(0);
-  const videoRef = useRef(null);
+  // const videoRef = useRef(null);
 
   const nextSlide = () => {
     setSlide((prev) => (prev === media.length - 1 ? prev : prev + 1));
@@ -14,33 +15,33 @@ const PostCarousel = ({ media }) => {
   };
 
   // Handle video play/pause logic based on the current slide
-  useEffect(() => {
-    const video = videoRef.current;
+  // useEffect(() => {
+  //   const video = videoRef.current;
 
-    // Play the video if the current slide is a video
-    if (media.is_video && video) {
-      video.play();
-    }
+  //   // Play the video if the current slide is a video
+  //   if (media.is_video && video) {
+  //     video.play();
+  //   }
 
-    // Cleanup to pause the video when the slide changes
-    return () => {
-      if (video) {
-        video.pause();
-      }
-    };
-  }, [slide, media]);
+  //   // Cleanup to pause the video when the slide changes
+  //   return () => {
+  //     if (video) {
+  //       video.pause();
+  //     }
+  //   };
+  // }, [slide, media]);
 
-  // Toggle video play/pause on click
-  const togglePlayPause = () => {
-    const video = videoRef.current;
-    if (video) {
-      if (video.paused) {
-        video.play();
-      } else {
-        video.pause();
-      }
-    }
-  };
+  // // Toggle video play/pause on click
+  // const togglePlayPause = () => {
+  //   const video = videoRef.current;
+  //   if (video) {
+  //     if (video.paused) {
+  //       video.play();
+  //     } else {
+  //       video.pause();
+  //     }
+  //   }
+  // };
 
   return (
     <div className="media-container">
@@ -54,14 +55,16 @@ const PostCarousel = ({ media }) => {
       {/* Render Media */}
       {media.map((item, index) =>
         item.is_video ? (
-          <video
+          
+          <iframe
             key={item.id}
             className={slide === index ? "media" : "media-hidden"}
-            ref={slide === index ? videoRef : null}
-            onClick={togglePlayPause}
+            src={item.video_url}
+            // ref={slide === index ? videoRef : null}
+            // onClick={togglePlayPause}
           >
-            <source src={item.video_url} />
-          </video>
+            <source  />
+          </iframe>
         ) : (
           <img
             key={item.id}
